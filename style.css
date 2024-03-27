@@ -176,3 +176,9 @@ body {
     font-weight: 200;
     color: rgb(5, 66, 66);
 }
+
+
+.breakline {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    
+}
