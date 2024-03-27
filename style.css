@@ -13,6 +13,7 @@
 
 body {
     margin: auto;
+    background-color: rgba(55, 225, 255, 0.183);
 }
 
 
@@ -29,7 +30,7 @@ body {
     margin-bottom: 40px;
     margin-top: 40px;
     text-decoration: underline;
-    background-color: white;
+    background-color: rgba(55, 225, 255, 0.051);
     transition: background-color 3s ease, transform 0.5s ease;
 }
 
@@ -49,7 +50,7 @@ body {
     margin-top: 40px;
     font-weight: 400;
     border: none;
-    background-color: white;
+    background-color: rgba(55, 225, 255, 0.051);
     transition: transform 0.5s ease;
 
 }
@@ -65,7 +66,7 @@ body {
     margin-top: 40px;
     font-weight: 400;
     border: none;
-    background-color: white;
+    background-color: rgba(55, 225, 255, 0.051);
     transition: text-shadow 0.5s ease, transform 0.5s ease;
 }
 
@@ -124,7 +125,7 @@ body {
 
 .subtext {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgba(0, 0, 0, 0.516);
@@ -139,7 +140,7 @@ body {
 .explore-button {
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: calc(60% + 60px);
+    top: calc(70% + 60px);
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -150,11 +151,13 @@ body {
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
-    transition: transform 1s ease;
+    transition: box-shadow 1s ease, background-color 1s ease;
 }
 
 .explore-button:hover {
-    transform: scale(1);
+    
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 .background-image {
@@ -163,3 +166,13 @@ body {
     z-index: 0;
 }
 
+.travel-paragraph {
+    margin-top: 110px;
+    margin-left: 500px;
+    margin-right: 600px;
+    font-family: "Arial", sans-serif;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-weight: 200;
+    color: rgb(5, 66, 66);
+}
