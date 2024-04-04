@@ -222,7 +222,7 @@ body {
 
 .travel-para-sub {
 
-    margin-left: 900px;
+    margin-left: 700px;
     margin-bottom: 20px;
     font-family: "Arial", sans-serif;
     letter-spacing: 3px;
@@ -306,7 +306,7 @@ body {
     font-family: "Roboto", sans-serif;
     letter-spacing: 3px;
     font-size: 50px;
-    color: rgba(47, 74, 74, 0.728)
+    color: rgba(47, 74, 74, 0.798)
 }
 
 .mail-sub {
@@ -315,7 +315,7 @@ body {
     font-family: "Roboto", sans-serif;
     letter-spacing: 2px;
     font-size: 20px;
-    color: rgba(44, 67, 67, 0.522);
+    color: rgba(44, 67, 67, 0.559);
 
 }
 
@@ -324,7 +324,7 @@ body {
     font-family: "Roboto", sans-serif;
     letter-spacing: 2px;
     font-size: 20px;
-    color: rgba(44, 67, 67, 0.522);
+    color: rgba(44, 67, 67, 0.559);
 }
 
 
@@ -394,7 +394,7 @@ body {
     letter-spacing: 2px;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
-    color: rgba(44, 67, 67, 0.522);
+    color: rgba(25, 37, 37, 0.688);
     font-size: 1.5em;
 }
 
@@ -405,7 +405,8 @@ body {
 .help-list li {
     font-size: 1em;
     font-weight: normal;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    color: rgba(51, 72, 72, 0.773);
 }
 
 
