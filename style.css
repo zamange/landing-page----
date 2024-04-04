@@ -179,7 +179,7 @@ body {
 }
 
 .explore-button {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(165, 201, 204);
     position: absolute;
     top: calc(70% + 60px);
     left: 50%;
@@ -212,39 +212,41 @@ body {
     margin-left: 700px;
     margin-right: 500px;
     margin-bottom: 1px;
-    font-family: "Arial", sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 3px;
     font-size: 50px;
     font-weight: 200;
-    color: rgb(2, 35, 35);
+    color: rgba(47, 74, 74, 0.728)
 }
 
 
 .travel-para-sub {
 
-    margin-left: 700px;
-    margin-right: 700px;
+    margin-left: 900px;
+    margin-bottom: 20px;
     font-family: "Arial", sans-serif;
     letter-spacing: 3px;
     font-size: 20px;
     font-weight: 200;
-    color: rgb(2, 35, 35);
+    color: rgba(49, 75, 75, 0.522);
 }
 
 
-.line {
-    margin-top: 10px;
-    position: relative;
-    width: 100%;
-    height: 1px;
-    background-color: rgb(163, 163, 163);
+.custom-line1 {
+    margin-top: 20px;
+    border: none; 
+    height: 2px; 
+    background-color: rgb(193, 191, 191); 
+    
 }
+
+
 
 
 .container-paragraphs {
     display: flex;
     justify-content: space-around;
-    margin-top: 80px;
+    margin-top: 200px;
 }
 
 .description-1,
@@ -256,4 +258,43 @@ body {
     height: 200px;
     border: 2px solid #9d9999;
     padding: 20px;
+    margin-bottom: 200px;
 }
+
+
+.featured {
+    margin-top: 100px;
+    margin-left: 800px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+    font-size: 50px;
+    color: rgba(47, 74, 74, 0.728)
+}
+
+.feature-sub {
+    margin-left: 770px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: rgba(44, 67, 67, 0.522);
+}
+
+
+.image-container {
+    white-space: nowrap;
+}
+
+.image-container img {
+    display: inline-block; 
+    vertical-align: top; 
+    margin-right: 10px;
+}
+
+.suitcase, .headphones, .powerbank {
+    width: 400px;
+    height: 600px;
+    padding: 100px;
+    border: 2px solid #a5a0a0;
+}
+
